@@ -1,0 +1,18 @@
+{
+  "name": "helmon-railway",
+  "version": "0.6.6",
+  "private": true,
+  "type": "module",
+  "description": "Helmon · Railway Edition — multi-core (Xray / sing-box) panel with native Telegram proxy suite for Railway",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node scripts/preflight.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
